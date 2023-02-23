@@ -1,0 +1,7 @@
+language: typescript
+
+tasks:
+  build:
+    command: 'pnpm run build'
+    deps:
+      - '^:build'

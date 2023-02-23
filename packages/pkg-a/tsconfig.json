@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "include": [
+    "**/*"
+  ],
+  "compilerOptions": {
+    "outDir": "../../.moon/cache/types/packages/pkg-a"
+  },
+  "references": [
+    {
+      "path": "../pkg-b"
+    }
+  ]
+}
