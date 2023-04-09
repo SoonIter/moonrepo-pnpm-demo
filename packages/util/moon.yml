@@ -1,0 +1,7 @@
+tasks:
+  build:
+    command: tsc
+    inputs: ['src/**/*']
+#     outputs: ['dist']
+    deps:
+      - "^:build"

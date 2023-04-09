@@ -1,8 +1,0 @@
-language: typescript
-
-tasks:
-  build:
-    command: 'pnpm run build'
-    inputs: ['src/**/*']
-    deps:
-      - '^:build'

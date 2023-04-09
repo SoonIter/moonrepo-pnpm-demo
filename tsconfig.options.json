@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "composite": true
+    "composite": true,
+    "emitDeclarationOnly": false
   },
   "extends": "tsconfig-moon/tsconfig.projects.json"
 }

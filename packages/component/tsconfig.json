@@ -1,0 +1,29 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "paths": {
+      "@monorepo-demo/sdk": [
+        "../sdk/src/index.ts"
+      ],
+      "@monorepo-demo/sdk/*": [
+        "../sdk/src/*"
+      ],
+      "@monorepo-demo/util": [
+        "../util/src/index.ts"
+      ],
+      "@monorepo-demo/util/*": [
+        "../util/src/*"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "../sdk"
+    },
+    {
+      "path": "../util"
+    }
+  ]
+}

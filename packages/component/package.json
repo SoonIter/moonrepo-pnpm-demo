@@ -1,0 +1,26 @@
+{
+  "name": "@monorepo-demo/component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@monorepo-demo/util": "workspace:*",
+    "@monorepo-demo/sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "@monorepo-demo/sdk": "workspace:*",
+    "@monorepo-demo/util": "workspace:*",
+    "react": "18.2.0",
+    "tsup": "^6.6.3"
+  },
+  "peerDependencies": {
+    "react": "^18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

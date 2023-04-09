@@ -1,0 +1,22 @@
+{
+  "name": "@monorepo-demo/cli",
+  "version": "1.0.0",
+  "description": "this is an end application, you should not install any dependencies, use them as devDependencies and bundle them all",
+  "bin": {
+    "cli": "./dist/index.js"
+  },
+  "dependencies": {
+    "@monorepo-demo/util": "workspace:*",
+    "@monorepo-demo/sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^6.6.3"
+  },
+  "scripts": {
+    "dev": "tsup src/index.ts --watch",
+    "build": "tsup src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

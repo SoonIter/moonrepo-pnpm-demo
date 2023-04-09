@@ -1,0 +1,5 @@
+tasks:
+  build:
+    command: tsc
+    # outputs: ['dist']
+    inputs: ['src/**/*', 'tsconfig.json']

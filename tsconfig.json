@@ -3,10 +3,16 @@
   "files": [],
   "references": [
     {
-      "path": "packages/pkg-a"
+      "path": "apps/web"
     },
     {
-      "path": "packages/pkg-b"
+      "path": "packages/component"
+    },
+    {
+      "path": "packages/sdk"
+    },
+    {
+      "path": "packages/util"
     }
   ]
 }

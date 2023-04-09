@@ -7,3 +7,6 @@ dist
 # xtrace profile
 Launch_*
 target
+
+# incremental
+*.tsbuildinfo
