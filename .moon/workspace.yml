@@ -17,5 +17,5 @@ projects:
 
 vcs:
     manager: 'git'
-    defaultBranch: 'master'
+    defaultBranch: 'main'
 

@@ -3,4 +3,5 @@ export * from '@monorepo-demo/util';
 
 export function component() {
   console.log('component');
+  console.log('component');
 }
