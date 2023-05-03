@@ -1,0 +1,30 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "include": [
+    "**/*"
+  ],
+  "references": [
+    {
+      "path": "../../packages/sdk"
+    },
+    {
+      "path": "../../packages/util"
+    }
+  ],
+  "compilerOptions": {
+    "paths": {
+      "@monorepo-demo/sdk": [
+        "../../packages/sdk/src/index.ts"
+      ],
+      "@monorepo-demo/sdk/*": [
+        "../../packages/sdk/src/*"
+      ],
+      "@monorepo-demo/util": [
+        "../../packages/util/src/index.ts"
+      ],
+      "@monorepo-demo/util/*": [
+        "../../packages/util/src/*"
+      ]
+    }
+  }
+}

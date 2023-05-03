@@ -2,6 +2,7 @@ tasks:
   dev:
     command: pnpm run dev
     inputs: ['src/**/*', 'package.json']
+    local: true
     outputs: ['dist']
     deps:
       - '^:build'
